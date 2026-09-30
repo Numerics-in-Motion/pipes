@@ -1,0 +1,14 @@
+{
+  "length_m": 100.0,
+  "rho_kg_m3": 1000.0,
+  "wave_speed_m_s": 1000.0,
+  "initial_speed_m_s": 1.0,
+  "baseline_pressure_pa": 2000000.0,
+  "window_s": 1.2,
+  "closure_s": {"fast": 0.05, "slow": 0.8},
+  "positive_valve_peaks_pa": {"fast": 1000000.0, "slow": 250000.0},
+  "negative_valve_minima_pa": {"fast": -1000000.0, "slow": 0.0},
+  "reservoir_arrival_s": 0.1,
+  "valve_reflection_return_s": 0.2,
+  "fast_to_slow_peak_ratio": 4.0
+}
